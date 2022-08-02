@@ -39,10 +39,11 @@ cadaAlumno.mostrarDatos();
 console.log(cadaAlumno);
 alert(ArrayAlumnos);
 
-const buscarAlumno = ArrayAlumnos.find(elemento =>{
-  return elemento.id === 1;
-  
-})
+function buscarProducto(id){
+    return ArrayAlumnos.find((elemento)=>elemento.id == id)
+}
+buscarProducto();
+
 console.log(buscarAlumno);
 /* function nuevoUsuario(){
   let usuario = prompt("¿Desea ingresar un nuevo usuario? Ingrese sí, o ESC para salir".toUpperCase);

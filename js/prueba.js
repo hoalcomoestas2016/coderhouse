@@ -39,10 +39,10 @@ cadaAlumno.mostrarDatos();
 console.log(cadaAlumno);
 alert(ArrayAlumnos);
 
-function buscarProducto(id){
+function buscarAlumno(id){
     return ArrayAlumnos.find((elemento)=>elemento.id == id)
 }
-buscarProducto();
+buscarAlumno();
 
 console.log(buscarAlumno);
 /* function nuevoUsuario(){
